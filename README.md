@@ -1,6 +1,6 @@
 <div align="center">
 <!--   <a href="https://lookerstudio.google.com/reporting/da5da0af-4be0-4f7d-a84b-f7c2892df612"> -->
-    <img src="AzurePipeline.gif" alt="Banner" width="720">
+    <img src="PowerBI-dashboard.PNG" alt="Banner" width="720">
   </a>
 
   <div id="user-content-toc">
@@ -68,19 +68,18 @@ This an end-to-end data engineering project on the Azure cloud. Where I did data
 
 You can find the detailed information on the diagram below:
 
-! AzurePipeline.gif
+![AzurePipeline](https://github.com/Glavian3/Azure-Data-Engineering-End-to-End/assets/53813196/01f9d571-8b24-4c52-a279-1655ff487b8b)
 
 <a name="data-ingestion"></a>
 ### 📤 Data Ingestion
 - Connected the on-premise SQL Server with Azure using Microsoft Integration Runtime.
 
-! https://github.com/Glavian3/Azure-Data-Engineering-End-to-End/blob/6dfff9c326c51865077597fab75af3a2057c0526/Azure%20ingestion%20runtime.png
-
+![Azure ingestion runtime](https://github.com/Glavian3/Azure-Data-Engineering-End-to-End/assets/53813196/e3e83d13-508b-4ad1-8f2f-5ec4ae82ff07)
 
 - Migrated the tables from on-premise Postgre Server to Azure Data Lake Storage Gen2.
 
-!https://github.com/Glavian3/Azure-Data-Engineering-End-to-End/blob/38600ac695816288452657c6d850d3b9eae65ae9/conatiner.png
-! https://github.com/Glavian3/Azure-Data-Engineering-End-to-End/blob/38600ac695816288452657c6d850d3b9eae65ae9/df-pipeline.PNG
+![conatiner](https://github.com/Glavian3/Azure-Data-Engineering-End-to-End/assets/53813196/2012f7e0-a5f8-47ac-ad34-44f05ce16c13)
+![df-pipeline](https://github.com/Glavian3/Azure-Data-Engineering-End-to-End/assets/53813196/adfeb978-4bc6-4d6b-9210-9391f9ee14ee)
 
 <a name="data-transformation"></a>
 ### ⚙️ Data Transformation
@@ -88,20 +87,21 @@ You can find the detailed information on the diagram below:
 - Used Spark Cluster in Azure Databricks to clean and refine the raw data.
 - Saved the cleaned data in a Delta format; optimized for further analysis.
 
-!https://github.com/Glavian3/Azure-Data-Engineering-End-to-End/blob/95178f797f66569d34b4de225b77176b3451f82a/Datbricks-Transformation.png
+![Datbricks-Transformation](https://github.com/Glavian3/Azure-Data-Engineering-End-to-End/assets/53813196/136a35ae-950b-4653-bd84-1c5690a20cd8)
+
 
 <a name="data-loading"></a>
 ### 📥 Data Loading
 - Used Azure Synapse Analytics to load the refined data efficiently.
 - Created SQL database and connected it to the data lake.
 
-!https://github.com/Glavian3/Azure-Data-Engineering-End-to-End/blob/95178f797f66569d34b4de225b77176b3451f82a/synapse-pipeline.PNG
-!https://github.com/Glavian3/Azure-Data-Engineering-End-to-End/blob/95178f797f66569d34b4de225b77176b3451f82a/db-synapse.PNG
+![synapse-pipeline](https://github.com/Glavian3/Azure-Data-Engineering-End-to-End/assets/53813196/8f6c72cb-3787-4819-86ec-754a71826388)
+![db-synapse](https://github.com/Glavian3/Azure-Data-Engineering-End-to-End/assets/53813196/e9b8e375-d7a5-4213-a4db-97d679500c9b)
 <a name="data-reporting"></a>
 ### 📊 Data Reporting
 - Connected Microsoft Power BI to Azure Synapse, and used the Views of the DB to create interactive and insightful data visualizations.
 
-!https://github.com/Glavian3/Azure-Data-Engineering-End-to-End/blob/95178f797f66569d34b4de225b77176b3451f82a/PowerBI-dashboard.PNG
+![PowerBI-dashboard](https://github.com/Glavian3/Azure-Data-Engineering-End-to-End/assets/53813196/bbc889c8-74eb-475e-bc7f-0d93040f211f)
 
 ### 🛠️ Technologies Used
 
