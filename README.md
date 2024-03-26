@@ -1,7 +1,7 @@
 <div align="center">
 <!--   <a href="https://lookerstudio.google.com/reporting/da5da0af-4be0-4f7d-a84b-f7c2892df612"> -->
     <img src="PowerBI-dashboard.PNG" alt="Banner" width="720">
-  </a>
+<!--   </a> -->
 
   <div id="user-content-toc">
     <ul>
@@ -68,7 +68,10 @@ This an end-to-end data engineering project on the Azure cloud. Where I did data
 
 You can find the detailed information on the diagram below:
 
-![AzurePipeline](https://github.com/Glavian3/Azure-Data-Engineering-End-to-End/assets/53813196/01f9d571-8b24-4c52-a279-1655ff487b8b)
+<div align="center">
+    <img src="AzurePipeline.gif" alt="Banner" width="720">
+
+  <div id="user-content-toc">
 
 <a name="data-ingestion"></a>
 ### 📤 Data Ingestion
