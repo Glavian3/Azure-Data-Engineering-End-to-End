@@ -1,6 +1,6 @@
 <div align="center">
 <!--   <a href="https://lookerstudio.google.com/reporting/da5da0af-4be0-4f7d-a84b-f7c2892df612"> -->
-    <img src="Azure ingestion runtime.png" alt="Banner" width="720">
+    <img src="AzurePipeline.gif" alt="Banner" width="720">
   </a>
 
   <div id="user-content-toc">
@@ -68,7 +68,7 @@ This an end-to-end data engineering project on the Azure cloud. Where I did data
 
 You can find the detailed information on the diagram below:
 
-! https://github.com/Glavian3/Azure-Data-Engineering-End-to-End/blob/6dfff9c326c51865077597fab75af3a2057c0526/AzurePipeline.gif
+! AzurePipeline.gif
 
 <a name="data-ingestion"></a>
 ### 📤 Data Ingestion
